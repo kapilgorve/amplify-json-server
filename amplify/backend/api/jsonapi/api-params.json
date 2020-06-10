@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/api",
+            "lambdaFunction": "jsonapi",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "jsonapi",
+    "apiName": "jsonapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "jsonapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyjson-dev-02633-authRole",
+        "unAuthRoleName": "amplify-amplifyjson-dev-02633-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "jsonapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
