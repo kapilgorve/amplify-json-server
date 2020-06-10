@@ -68,7 +68,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-amplifyjson-dev-02633-deployment",
-					"S3Key": "amplify-builds/jsonapi-32694357547877314548-build.zip"
+					"S3Key": "amplify-builds/jsonapi-412f6b6b52416c514b4c-build.zip"
 				}
 			}
 		},
